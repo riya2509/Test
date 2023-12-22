@@ -1,16 +1,14 @@
 // import "./App.css";
-// import { Route, useNavigate } from "react-router-dom";
+// import Home from "./Home";
+
+import Routes from "./Routes";
+
 // import StudentHome from "./StudentHome";
 
 function App() {
-  // const navigate = useNavigate();
   return (
     <>
-      Hello World!
-      {/* <Route />
-      <button onClick={() => navigate("/StudentHome")}>StudentHome</button>
-      <Route path="/StudentHome" element={<StudentHome />} />
-      <StudentHome /> */}
+      <Routes />
     </>
   );
 }

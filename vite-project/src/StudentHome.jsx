@@ -1,11 +1,11 @@
-import StudentDetails from "./StudentDetails";
-// import { useNavigate } from "react-router-dom";
+// import StudentDetails from "./StudentDetails";
 
 function StudentHome() {
-  const name = "Riya Gupta";
+  //   const name = "Riya Gupta";
   return (
     <div>
-      <StudentDetails name={name} />
+      Student Home
+      {/* <StudentDetails name={name} /> */}
     </div>
   );
 }

@@ -1,13 +1,19 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import StudentHome from "./StudentHome";
+import Home from "./Home";
 import StudentHome from "./StudentHome";
 
 const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
   {
     path: "/StudentHome",
     element: <StudentHome />,
   },
 ]);
-function Route() {
+function Routes() {
   return (
     <>
       <RouterProvider router={router} />
@@ -15,4 +21,4 @@ function Route() {
   );
 }
 
-export default Route;
+export default Routes;
