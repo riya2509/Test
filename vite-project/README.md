@@ -6,3 +6,25 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Test Assignment
+
+Installing project
+
+```sh
+yarn
+```
+
+running frontend development server
+
+```sh
+yarn dev
+```
+
+for building project
+
+```sh
+yarn build
+```
+
+> Note:<i>Please use yarn as package manager as this project uses yarn workspaces<i>
