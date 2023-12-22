@@ -1,11 +1,11 @@
-// import StudentDetails from "./StudentDetails";
+import StudentDetails from "./StudentDetails";
 
 function StudentHome() {
-  //   const name = "Riya Gupta";
+  const Username = "Riya Gupta";
+  const phoneNumber = 9546007043;
   return (
     <div>
-      Student Home
-      {/* <StudentDetails name={name} /> */}
+      <StudentDetails name={Username} phoneNumber={phoneNumber} />
     </div>
   );
 }
